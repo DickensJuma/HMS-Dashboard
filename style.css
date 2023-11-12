@@ -6,9 +6,15 @@
 }
 body {
     min-height: 100vh;
+    background-color: #cad7fda4;
 }
 a {
     text-decoration: none;
+    color: inherit;
+}
+a .active {
+    text-decoration: none;
+    color: #444;
 }
 li {
     list-style: none;
@@ -21,16 +27,16 @@ h3 {
     color: #999;
 }
 .btn {
-    background: #f05462;
+    background: #2691d9;
     color: white;
     padding: 5px 10px;
     text-align: center;
 }
 .btn:hover {
-    color: #f05462;
+    color: #2691d9;
     background: white;
     padding: 3px 8px;
-    border: 2px solid #f05462;
+    border: 2px solid #2691d9;
 }
 .title {
     display: flex;
@@ -49,7 +55,7 @@ td {
 }
 .side-menu {
     position: fixed;
-    background: #f05462;
+    background: #2691d9;
     width: 20vw;
     min-height: 100vh;
     display: flex;
@@ -70,7 +76,7 @@ td {
 }
 .side-menu li:hover {
     background: white;
-    color: #f05462;
+    color: #2691d9;
 }
 .container {
     position: absolute;
@@ -211,7 +217,7 @@ td {
         height: 40px;
     }
     .side-menu li:hover {
-        background: #f05462;
+        background: #2691d9;
         padding: 8px 38px;
         border: 2px solid white;
     }
@@ -237,5 +243,12 @@ td {
     width: 20px;
     height: 20px;
     margin-left: 10px;
-    background-color: #ffff;
+    
+}
+
+.dash-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    
 }

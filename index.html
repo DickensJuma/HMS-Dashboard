@@ -1,180 +1,215 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Admin Panel</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Admin Panel</title>
+    </head>
 
-<body>
-    <div class="side-menu">
-        <div class="brand-name">
-            <h1>Coopa Clinic</h1>
-        </div>
-        <ul>
-            <li><a href="index.html" class="active"><img src="dashboard (2).png" alt="">&nbsp; <span>Dashboard</span> </a></li>
-            <li><a href="patients.html" ><img src="images/medical.png" class="setting-icon"  alt="">&nbsp;<span>Patients</span> </a></li>
-            <li> <a href="doctors.html" ><img  src="images/doctor.png"  class="setting-icon"  alt="">&nbsp;<span>Doctors</span> </a></li>
-            <li><a href="schedule.html" ><img src="images/shedule.png" class="setting-icon"  alt="">&nbsp;<span>Schedules</span> </a></li>
-            <li><img src="images/record.png" class="setting-icon" alt="">&nbsp;<span>Records</span> </li>
-            <li><img  src="images/hospital.png" class="setting-icon" alt="">&nbsp;<span>Hospitals</span> </li>
-            <li><img src="images/help.png" class="setting-icon"  alt="">&nbsp; <span>Help</span></li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="header">
-            <div class="nav">
-                <div class="search">
-                    <input type="text" placeholder="Search..">
-                    <button title="button" type="submit"><img src="search.png" alt=""></button>
-                </div>
-                <div class="user">
-                    <a href="#" class="btn">Add New Patient</a>
-                    <img src="notifications.png" alt="">
-                    <div class="img-case">
-                        <img src="user.png" alt="">
-                    </div>
-                    
-                </div>
+    <body>
+        <div class="side-menu">
+            <div class="brand-name">
+                <h1>Coopa HMS</h1>
             </div>
-        </div>
-        <div class="content">
-            <div class="cards">
-                <div class="card">
-                    <div class="box">
-                        <h1>2194</h1>
-                        <h3>Patients</h3>
-                    </div>
-                    <div class="icon-case">
-                        <img src="students.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>53</h1>
-                        <h3>Doctors</h3>
-                    </div>
-                    <div class="icon-case">
-                        <img src="teachers.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>5</h1>
-                        <h3>Hospitals</h3>
-                    </div>
-                    <div class="icon-case">
-                        <img src="schools.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>35</h1>
-                        <h3>Appointments</h3>
-                    </div>
-                    <div class="icon-case">
-                        <img src="income.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="content-2">
-                <div class="recent-payments">
-                    <div class="title">
-                        <h2>Patient</h2>
-                        <a href="#" class="btn">View All</a>
-                    </div>
-                    <table>
-                        <tr>
-                            <th>Name</th>
-                            <th>School</th>
-                            <th>Amount</th>
-                            <th>Option</th>
-                        </tr>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
-                        </tr>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
-                        </tr>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
-                        </tr>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
-                        </tr>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
-                        </tr>
-                        <tr>
-                            <td>John Doe</td>
-                            <td>St. James College</td>
-                            <td>$120</td>
-                            <td><a href="#" class="btn">View</a></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="new-students">
-                    <div class="title">
-                        <h2>Appointmets</h2>
-                        <a href="#" class="btn">View All</a>
-                        
-                       
-                    </div>
-                    <table>
-                        <tr>
-                            <th>Status</th>
-                            <th>Doctor</th>
-                            <th>Time</th>
-                            
-                        </tr>
-                        <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="info.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="info.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="info.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td><img src="user.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="info.png" alt=""></td>
-                        </tr>
-
-                    </table>
-                   
-                </div>
-
-
+            <ul>
+                <li><a href="index.html" class="active"><img src="images/dashboard.png" class="setting-icon"  alt="">&nbsp; <span>Dashboard</span> </a></li>
+                <li><a href="patients.html" ><img src="images/medical.png" class="setting-icon"  alt="">&nbsp;<span>Patients</span> </a></li>
+                <li> <a href="doctors.html" ><img  src="images/doctor.png"  class="setting-icon"  alt="">&nbsp;<span>Doctors</span> </a></li>
+                <li><a href="schedule.html" ><img src="images/schedule2.png" class="setting-icon"  alt="">&nbsp;<span>Schedules</span> </a></li>
+                <li> <a href="hospitals.html" ><img src="images/hospital.png" class="setting-icon"  alt="">&nbsp;<span>Hospitals</span> </a></li>
+                <li> <a href="records.html" ><img src="images/record.png" class="setting-icon"  alt="">&nbsp;<span>Records</span> </a></li>
+                <li> <a href="help.html" ><img src="images/help.png" class="setting-icon"  alt="">&nbsp;<span>Help</span> </a></li>
+                <li><a href="login.html"> <img src="images/logout.png" class="setting-icon"  alt="">&nbsp;<span>Logout</span> </a></li>
                
+            </ul>
+        </div>
+        <div class="container">
+            <div class="header">
+                <div class="nav">
+                    <div class="search">
+                        <input type="text" placeholder="Search..">
+                        <button title="button" type="submit"><img src="images/search.png" alt=""></button>
+                    </div>
+                    <div class="user">
+                        <!-- <a href="#" class="btn">Add New Patient</a> -->
+                        <img src="images/notifications.png" alt="">
+                        <div class="img-case">
+                            <img src="images/user.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="cards">
+                    <div class="card">
+                        <div class="box">
+                            <h1  id="doctorCount"></h1>
+                            <h3>Patients</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img class= "dash-icon"  src="images/patient.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1  id="patientCount"></h1>
+                            <h3>Doctors</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img class= "dash-icon" src="images/doctor.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1>5</h1>
+                            <h3>Hospitals</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img class= "dash-icon"  src="images/hospital.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <h1 id="appointmentCount"></h1>
+                            <h3>Appointments</h3>
+                        </div>
+                        <div class="icon-case">
+                            <img class= "dash-icon"  src="images/shedule.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-2">
+                    <div class="recent-payments">
+                        <div class="title">
+                            <h2>Patient</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Full Name</th>
+                                    <th>DOB</th>
+                                    <th>Gender</th>
+                                </tr>
+                            </thead>
+                            <tbody id="patientTableBody"></tbody>
+                        </table>
+                    </div>
+                    <div class="new-students">
+                        <div class="title">
+                            <h2>Appointmets</h2>
+                            <a href="#" class="btn">View All</a>
+                            
+                        
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Patient </th>
+                                    <th>Doctor</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="appointmentTableBody"></tbody>
+
+
+                        </table>
+                    
+                    </div>
+
+
+                
+                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
+    <script>
+     
 
-</html>
+    document.addEventListener('DOMContentLoaded', function () {
+        const apiUrl = 'http://localhost:8083/api/patients';
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                const patientTableBody = document.getElementById('patientTableBody');
+
+                data.forEach(patient => {
+                    const row = document.createElement('tr');
+
+                    row.innerHTML = `
+                        <td>${patient.patient_id}</td>
+                        <td>${patient.first_name} ${patient.last_name}</td>
+                        <td>${patient.dob} </td>
+                        <td>${patient.gender}</td>
+                        
+                        <td><a href="#" class="btn">View</a></td>
+                    `;
+                    patientTableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error fetching patient data:', error));
+    });
+
+    //list appointments
+    document.addEventListener('DOMContentLoaded', function () {
+        const apiUrl = 'http://localhost:8083/api/appointments';
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                const appointmentTableBody = document.getElementById('appointmentTableBody');
+        
+     
+                data.forEach(appointment => {
+                    const row = document.createElement('tr');
+
+                    row.innerHTML = `
+                        <td>${appointment.appointment_id}</td>
+                        <td>${appointment.patient_first_name} ${appointment.patient_last_name} </td>
+                        <td>${appointment.doctor_first_name} ${appointment.doctor_last_name} </td>
+                        <td>${appointment.appointment_date} </td>
+                        <td>${appointment.status}</td>
+                        <td><a href="#" class="btn">View</a></td>
+                    `;
+                    appointmentTableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error fetching appointment data:', error));
+    });
+
+
+    //total number of patients, doctors, hospitals, appointments
+    document.addEventListener('DOMContentLoaded', function () {
+        const apiUrl = 'http://localhost:8083/api/counts';
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                const patientCount = document.getElementById('patientCount');
+                const doctorCount = document.getElementById('doctorCount');
+                // const hospitalCount = document.getElementById('hospitalCount');
+                const appointmentCount = document.getElementById('appointmentCount');
+
+                patientCount.innerHTML = data.patients;
+                doctorCount.innerHTML = data.doctors;
+                // hospitalCount.innerHTML = data.hospital;
+                appointmentCount.innerHTML = data.appointments
+;
+            })
+            .catch(error => console.error('Error fetching count data:', error));
+    });
+
+    </script>
+
+    </html>
