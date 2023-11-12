@@ -104,14 +104,11 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Python][Python]][Python-url]
+* [![Javascript][Javascript]][Javascript-url]
+* [![HTML][HTML]][HTML-url]
+* [![CSS][CSS]][CSS-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,9 +123,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* python
   ```sh
-  npm install npm@latest -g
+ $ sudo apt-get update
+ $ sudo apt-get install python3.6
+ $ sudo apt-get install software-properties-common
+ $ sudo add-apt-repository ppa:deadsnakes/ppa
+ $ sudo apt-get update
+ $ sudo apt-get install python3.8
   ```
 
 ### Installation
@@ -268,3 +270,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[Javascript-url]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+[JQuery-url]: https://jquery.com 
+[Python-url]:https://img.shields.io/pypi/pyversions/3
