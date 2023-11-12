@@ -69,8 +69,10 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         parsed_url = urlparse(self.path)
         path = parsed_url.path
         query_params = parse_qs(parsed_url.query)
-
-        if path == '/api/patients':
+        if path == '/':
+            # Serve the index.html file
+            self.path = 'http://localhost:8083/index.html'  
+        elif path == '/api/patients':
             if 'patient_id' in query_params:
                 # Get a specific patient
                 patient_id = query_params['patient_id'][0]
