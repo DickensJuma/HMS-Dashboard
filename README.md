@@ -34,10 +34,10 @@
     <img src="images/dashboard.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Coopa HMS Project</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+   Hospital Management Project
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,16 +83,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/DickensJuma/HMS-Dashboard/blob/main/images/dash-screenshot.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+![Product Name Screen Shot](https://github.com/DickensJuma/HMS-Dashboard/blob/main/images/dash-screenshot.png?raw=true)
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+
+Modules:
+*  Register doctors and patients
+* Book appointemnt with doctors
+* keep e records of a patients
+
 
 Use the `BLANK_README.md` to get started.
 
@@ -102,7 +102,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+We built thei project with the following technologies
 
 * [![Python][Python]][Python-url]
 * [![Javascript][Javascript]][Javascript-url]
@@ -117,12 +117,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The project can run on OS, window and linux
+Text editor of your choice e.g vscode
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This isthings you need to use the software and how to install them.
 * python
 
   ```sh
@@ -138,19 +138,28 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/DickensJuma/HMS-Dashboard.git
    ```
-3. Install NPM packages
+2 Install PIP packages
+```sh
+pip install [packages]
+```
+
+3. Create env
    ```sh
-   python -m venv myenv 
+   python3 -m venv myenv 
    ```
-4. Run your API in `index.py`
+3. Run your API in `index.py`
    ```js
    python index.py
    ```
+4. Dashboard link
+  ```sh
+  http://localhost:8083/index.html
+
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
