@@ -78,10 +78,10 @@ Use the `BLANK_README.md` to get started.
 
 We built thei project with the following technologies
 
-* [![Python][Python]][Python-url]
-* [![Javascript][Javascript]][Javascript-url]
-* [![HTML][HTML]][HTML-url]
-* [![CSS][CSS]][CSS-url]
+* Python
+* Javascript
+* HTML
+* CSS
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -96,7 +96,7 @@ Text editor of your choice e.g vscode
 
 ### Prerequisites
 
-This isthings you need to use the software and how to install them.
+This is things you need to use the software and how to install them.
 * python
 
   ```sh
